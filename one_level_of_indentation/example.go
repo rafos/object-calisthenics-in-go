@@ -1,4 +1,4 @@
-package main
+package one_level_of_indentation
 
 import "fmt"
 
@@ -7,7 +7,7 @@ import (
 	"github.com/rafos/object-calisthenics-in-go/one_level_of_indentation/after"
 )
 
-func main() {
+func OneLevelOfIndentationExample() {
 	var data = [][]string{
 		{" ", " ", " ", "x", " ", "o", " ", " ", "o", "x"},
 		{" ", "o", "x", " ", " ", " ", " ", "x", " ", " "},
