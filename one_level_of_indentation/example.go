@@ -3,11 +3,13 @@ package one_level_of_indentation
 import "fmt"
 
 import (
-	"github.com/rafos/object-calisthenics-in-go/one_level_of_indentation/before"
 	"github.com/rafos/object-calisthenics-in-go/one_level_of_indentation/after"
+	"github.com/rafos/object-calisthenics-in-go/one_level_of_indentation/before"
 )
 
 func OneLevelOfIndentationExample() {
+	fmt.Println("*** OneLevelOfIndentationExample ***")
+
 	var data = [][]string{
 		{" ", " ", " ", "x", " ", "o", " ", " ", "o", "x"},
 		{" ", "o", "x", " ", " ", " ", " ", "x", " ", " "},
